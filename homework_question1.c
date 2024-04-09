@@ -55,9 +55,7 @@ char *ToPigLatin(char str[])
         temp = str[0];
         for(j = 0;j<strlen(str);j++)
         {
-        	printf("%s\n",str);
             str[j] = str[j+1];
-            printf("%s\n", str);
         }
         str[l-1] = temp;
     }
